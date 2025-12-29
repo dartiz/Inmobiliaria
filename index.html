@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inmobiliaria SOL Y LUNA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="img/logo.jpg" alt="Logo" class="logo">
+        <h1>Inmobiliaria SOL Y LUNA</h1>
+        <p>Encuentra tu hogar ideal</p>
+    </header>
+
+    <!-- INMUEBLES -->
+    <section class="inmuebles">
+
+        <div class="casa">
+    <div class="carousel">
+        <img src="img/casa1/1.jpg" class="carousel-img" id="casa1-img">
+
+        <button class="prev" onclick="cambiarImagen(-1, 'casa1')">❮</button>
+        <button class="next" onclick="cambiarImagen(1, 'casa1')">❯</button>
+    </div>
+
+    <h2>Casa en Zona Central</h2>
+    <p class="precio">$85.000 Bs</p>
+    <p>Casa en venta
+📌Barrio Brigida. 
+📌Entre 3er y 4to anillo. 
+📌378 M²
+📌10.5 M² de frente
+📌36 M2 de fondo
+💰200.000 $
+✅Agenda tu visita</p>
+
+    <a href="https://wa.me/59175832616" target="_blank">
+        Contactar por WhatsApp
+    </a>
+</div>
+
+
+        <div class="casa">
+    <div class="carousel">
+        <img src="img/casa2/2.jpg" class="carousel-img" id="casa2-img">
+
+        <button class="prev" onclick="cambiarImagen(-1, 'casa2')">❮</button>
+        <button class="next" onclick="cambiarImagen(1, 'casa2')">❯</button>
+    </div>
+
+    <h2>Casa en Zona Central</h2>
+    <p class="precio">$55.000 Bs</p>
+    <p>Casa en venta</p>
+
+    <a href="https://wa.me/59175832616" target="_blank">
+        Contactar por WhatsApp
+    </a>
+</div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Inmobiliaria SOL Y LUNA</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
