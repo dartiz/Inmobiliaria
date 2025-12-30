@@ -3,11 +3,11 @@ const indices = {
 };
 
 const totalImagenes = {
-    casa1: 2
+    casa1: 4
 };
 indices.casa2 = 1
 
-totalImagenes.casa2 = 5
+totalImagenes.casa2 = 2
 
 
 
